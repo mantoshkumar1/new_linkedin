@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- https://simpleisbetterthancomplex.com/tutorial/2016/08/29/how-to-work-with-ajax-request-with-django.html -->
+
+{% load static %}
+
 <head>
     <meta charset="UTF-8">
-    <title>Hello world!</title>
+    <title>Experimental LinkedIn</title>
 </head>
+
 <body>
 
-<h1>Hello World!</h1>
+<h3>This is an experimental LinkedIn. I am developing this application that would provide
+    minimalize linkedin services.</h3>
+<ul>
+  <li>User login and registration</li>
+  <li>Create/Update a Profile</li>
+  <li>Delete/Hide your Profile</li>
+  <li>Search profiles based on keywords (Job titles, skills, education level, country, city, industry)</li>
+  <li>Message exchange between two profiles</li>
+</ul>
+
+<form id="output">
+      <script src="{% static "js/current_time.js" %}"></script>
+      <input type="button" value="Current Time" onclick="timeNow()"/>
+</form>
 
 </body>
+
 </html>
