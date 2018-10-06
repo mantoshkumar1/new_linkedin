@@ -1,0 +1,4 @@
+https://blog.doordash.com/tips-for-building-high-quality-django-apps-at-scale-a5a25917b2b5
+
+https://medium.freecodecamp.org/using-django-with-mongodb-by-adding-just-one-line-of-code-c386a298e179
+https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-1
