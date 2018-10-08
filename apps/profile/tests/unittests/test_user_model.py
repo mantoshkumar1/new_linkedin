@@ -1,8 +1,9 @@
 from django.test import TestCase
+
 from apps.profile.models import User
 
 
-class UserTestCase(TestCase):
+class UserModelTestCase(TestCase):
     """This class defines the test suite for the User model."""
     
     def setUp(self):
@@ -16,4 +17,4 @@ class UserTestCase(TestCase):
         old_count = User.objects.count()
         self.user.save()
         new_count = User.objects.count()
-        self.assertEqual(old_count+1, new_count)
+        self.assertEqual(old_count + 1, new_count)
